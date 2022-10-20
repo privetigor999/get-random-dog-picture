@@ -3,9 +3,9 @@
   left: 0px;
   top: 0;
   width: 240px;
-  height: 93vh;
+  height: 100%;
   background-color: #e4e1e1;
-  margin-top: 7vh;
+  margin-top: 50px;
   display: flex;
   overflow: scroll;
   flex-direction: column;
@@ -35,7 +35,7 @@
 
 @media screen and (max-width: 900px) {
   .container {
-    margin-top: 6vh;
+    margin-top: 30px;
     width: 180px;
     .input {
       margin: 14px 0;
@@ -51,7 +51,7 @@
 
 @media screen and (max-width: 767px) {
   .container {
-    margin-top: 6vh;
+    margin-top: 30px;
     width: 140px;
     .input {
       margin: 14px 0;
@@ -67,7 +67,7 @@
 
 @media screen and (max-width: 575px) {
   .container {
-    margin-top: 6vh;
+    margin-top: 30px;
     width: 100px;
     .input {
       margin: 10px 0;
@@ -85,7 +85,7 @@
 
 @media screen and (max-width: 420px) {
   .container {
-    margin-top: 6vh;
+    margin-top: 30px;
     width: 90px;
     z-index: 1;
     padding: 0 5px;

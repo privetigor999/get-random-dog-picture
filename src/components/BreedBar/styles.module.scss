@@ -1,0 +1,104 @@
+.container {
+  position: absolute;
+  left: 0px;
+  top: 0;
+  width: 240px;
+  height: 93vh;
+  background-color: #e4e1e1;
+  margin-top: 7vh;
+  display: flex;
+  overflow: scroll;
+  flex-direction: column;
+  padding: 10px 20px;
+
+  .input {
+    margin: 16px 0;
+    height: 30px;
+    outline: none;
+    border: none;
+    padding: 0 10px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+  }
+  ul {
+    li {
+      font-size: 1.2rem;
+      list-style: none;
+      cursor: pointer;
+      padding-bottom: 4px;
+      padding-left: 4px;
+      border-bottom: 1px solid #f2f2f2;
+      color: #6b6b6b;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    margin-top: 6vh;
+    width: 180px;
+    .input {
+      margin: 14px 0;
+      font-size: 1rem;
+    }
+    ul {
+      li {
+        font-size: 1rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    margin-top: 6vh;
+    width: 140px;
+    .input {
+      margin: 14px 0;
+      font-size: 0.8rem;
+    }
+    ul {
+      li {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .container {
+    margin-top: 6vh;
+    width: 100px;
+    .input {
+      margin: 10px 0;
+      font-size: 0.6rem;
+      padding: 0 4px;
+    }
+    ul {
+      li {
+        font-size: 0.6rem;
+        padding-left: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .container {
+    margin-top: 6vh;
+    width: 90px;
+    z-index: 1;
+    padding: 0 5px;
+    .input {
+      margin: 4px 0;
+      font-size: 0.6rem;
+      padding: 0 4px;
+    }
+    ul {
+      li {
+        font-size: 0.5rem;
+        padding-left: 0;
+      }
+    }
+  }
+}
